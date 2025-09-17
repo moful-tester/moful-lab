@@ -52,7 +52,7 @@ jobs:
           echo
           echo
           echo "---      ---      ---"
-          [[ ${{ inputs.break == 1 && true || false }} ]] && exit 1 || true
+          ${{ inputs.break == 1 && true || false }} && exit 1 || true
           echo
   inference:
     permissions:
@@ -68,3 +68,4 @@ jobs:
       - name: Print Output
         id: output
         run: echo "${{ steps.inference.outputs.response }}"
+
