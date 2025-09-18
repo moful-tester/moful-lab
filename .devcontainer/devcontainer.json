@@ -1,6 +1,7 @@
 {
   "name": "Universal Codespace",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": ".devcontainer/post-create.sh",
   "customizations": {
     "codespaces": {
       "openFiles": ["README.md"]
