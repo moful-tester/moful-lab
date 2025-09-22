@@ -2,9 +2,6 @@
   "name": "Universal Codespace",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
-  "remoteUser": "vscode",
-  "containerUser": "vscode",
-
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
       "username": "codespace",
@@ -13,3 +10,4 @@
     }
   }
 }
+
