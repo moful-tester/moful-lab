@@ -3,11 +3,8 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
   "features": {
-    "ghcr.io/devcontainers/features/common-utils:2": {
-      "username": "codespace",
-      "userUid": "1000",
-      "userGid": "1000"
-    }
+    "ghcr.io/devcontainers/features/common-utils:2": {}
   }
 }
+
 
