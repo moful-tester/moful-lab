@@ -9,9 +9,6 @@
     "NO_PROXY": "${localEnv:NO_PROXY}"
   },
 
-  "postCreateCommand": ".devcontainer/post-create.sh",
-  "postStartCommand": ".devcontainer/post-start.sh",
-
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {},
     "ghcr.io/devcontainers/features/git:1": {},
@@ -51,3 +48,4 @@
     }
   }
 }
+
